@@ -21,6 +21,15 @@ Please complete the instructions below:
 
 You do not need to contact GitHub Support to remove cached commits and complete this exercise.
 
+## Solution
+
+1. Installed BFG Repo-Cleaner prerequisite Java runtime with ```winget install -e --id Oracle.JavaRuntimeEnvironment```
+2. Clone with username ```git clone https://lilja85@github.com/lilja85/exercise-remove-commit-history.git```
+3. Remove the .env anc commit
+4. Download BFG Repo-Cleaner
+5. Run BFG Repo-Cleaner ```java -jar "C:\git\GHAS\bfg-1.14.0.jar" --delete-files .env```
+6. Force push ```git push --force```
+
 <!-- Add your steps below starting with step 2 -->
 
 ## Seeing your result
